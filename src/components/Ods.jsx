@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ods = () => {
   return (
-    <div className='max-w-[1400px] h-[500px] pt-16'>
+    <div className='max-w-[1400px] h-auto pt-16'>
       <div className='text-center '>
         <h2 className='text-4xl font-semibold text-orange-500 pb-14 uppercase'>Dimensões do TCC: <span className='text-4xl font-bold text-yellow-500'>ODS</span> e Desing Thinking </h2>
         <div className='flex flex-row flex-wrap px-4'>
@@ -24,10 +24,6 @@ const Ods = () => {
                  <div class="basis-1/4 pr-2 pb-2"><img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-15.svg" alt="" /></div>
                  <div class="basis-1/4 pr-2 pb-2"><img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-16.svg" alt="" /></div>
                  <div class="basis-1/4 pr-2 pb-2"><img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-17.svg" alt="" /></div>
-                
-        
-      
-           
           
         </div>
       </div>

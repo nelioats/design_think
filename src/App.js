@@ -1,3 +1,4 @@
+import Empatizar from "./components/Empatizar";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Ods from "./components/Ods";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Ods />
+      <Empatizar />
     </div>
   );
 }

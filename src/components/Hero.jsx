@@ -1,4 +1,5 @@
 import React from 'react'
+// import logo from '../img/logo.png'
 
 const Hero = () => {
   return (
@@ -8,6 +9,7 @@ const Hero = () => {
       <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white text-center'>
           <div className='md:flex md:flex-col-2 md:w-full md:justify-center md:mt-20'>
               <div className='mt-20 md:text-left md:w-full md:pl-32'>
+                {/* <img className='w-48 h-48 m-auto mb-4 md:hidden'  src={logo} alt="" /> */}
                   <p>A METODOLOGIA </p>
                   <h1 className='font-bold text-4xl drop-shadow-2xl md:text-7xl'>Design Thinking</h1>
                   <p className='drop-shadow-2xl py-2 mb-2 px-2 text-base md:text-xl'>e Formação de Professores na Orientação do TCC do IEMA</p>
