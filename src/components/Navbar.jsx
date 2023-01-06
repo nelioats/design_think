@@ -48,5 +48,5 @@ const handleNav = () => {
     </div>
   )
 }
-
+//teste
 export default NavBar
