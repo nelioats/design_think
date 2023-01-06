@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { HiMenuAlt3 } from 'react-icons/hi';
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 const NavBar = () => {
