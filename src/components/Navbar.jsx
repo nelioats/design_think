@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import { HiMenuAlt3 } from 'react-icons/hi';
+import { Link, animateScroll as scroll } from 'react-scroll'
+
 
 const NavBar = () => {
 
@@ -16,8 +18,13 @@ const handleNav = () => {
       }
 }
 
+      const handleClose = () => {
+        setNav(!nav)
+        document.body.style.overflow = 'scroll'
+      }
+
   return (
-    <div className='absolute bg-white/80 w-full flex justify-between p-4 items-center z-20'>
+    <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0'>
         <h1 className='text-green-700 font-bold text-2xl z-20'>DESIGN THINKING</h1>
         <HiMenuAlt3 onClick={handleNav} className=' text-green-800 cursor-pointer z-20' size={25} />
         <div className={
@@ -30,11 +37,12 @@ const handleNav = () => {
            'absolute top-0 h-screen    ease-in duration-200 z-10 opacity-0'
         }>  */}
             <ul className='flex flex-col fixed w-full  h-full max-h-[550px]  justify-center'>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400'>Empatizar</li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400'>Definir</li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400'>Idear</li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400'>Prototipar</li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400'>Testar</li>
+
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="empatizar" smooth={true} offset={50} duration={500}>Empatizar</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Definir</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Idear</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Prototipar</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Testar</Link></li>
             </ul>
         </div>
     </div>

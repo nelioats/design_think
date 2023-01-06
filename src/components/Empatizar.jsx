@@ -2,7 +2,7 @@ import React from 'react'
 
 const Empatizar = () => {
   return (
-    <div className='bg-gray-200 p-5 my-12'>
+    <div name='empatizar' className='bg-gray-200 p-5 my-12'>
         <div className='flex flex-col h-auto'>
             <div className='border-b-2 border-blue-700 mb-4'>
                 <h2 className='text-4xl text-blue-600'><span className='text-8xl text-blue-800 font-semibold'>E</span>mpatizar</h2>

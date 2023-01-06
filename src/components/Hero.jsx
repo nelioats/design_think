@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll'
 // import logo from '../img/logo.png'
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
                   <p className='drop-shadow-2xl py-2 mb-2 px-2 text-base md:text-xl'>e Formação de Professores na Orientação do TCC do IEMA</p>
               </div>
               <div className='px-3 space-y-2  md:w-full md:pr-20 md:max-w-lg md:mt-10'>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Empatizar</button>
+                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'><Link to="empatizar" smooth={true} offset={10} duration={500}>Empatizar</Link></button>
                 <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Definir</button>
                 <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Idear</button>
                 <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Prototipar</button>
