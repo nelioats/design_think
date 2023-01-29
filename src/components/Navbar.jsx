@@ -25,7 +25,7 @@ const handleNav = () => {
       }
 
   return (
-    <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0 md:pl-20 md:pr-20'>
+    <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0 '>
         <h1 className='text-green-700 font-bold text-2xl z-20 '>DESIGN THINKING</h1>
         <HiMenuAlt3 onClick={handleNav} className=' text-green-800 cursor-pointer z-20' size={25} />
         <div className={
