@@ -11,16 +11,14 @@ const Hero = () => {
           <div className='md:flex md:flex-col-2 md:w-full md:justify-center md:mt-20'>
               <div className='md:text-left md:w-full md:pl-32 '>
                   <div className=''>
-                    <img className='w-80 h-80 opacity-80 ml-[20%] mb-16' src={logo} alt="" />
-               
+                    <img className='md:w-80 md:h-80 w-64 h-64 md:opacity-80 ml-[20%] mb-16' src={logo} alt="" />
                     <div className='absolute top-[58%]'>
                       <p>A METODOLOGIA </p>
                       <h1 className='font-bold text-4xl drop-shadow-2xl md:text-7xl'>Design Thinking</h1>
                       <p className='drop-shadow-2xl text-base md:text-xl'>e Formação de Professores na Orientação do TCC do IEMA</p>
                     </div>
-                    
                   </div>
-                  
+
               </div>
               <div className='px-3 space-y-2 md:w-full md:pr-20 md:max-w-lg md:mt-20'>
                 <div> <Link to="empatizar" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-[#FD9D24] hover:text-white transition duration-300 ease-out hover:ease-in'>EMPATIZAR</button></Link></div>
