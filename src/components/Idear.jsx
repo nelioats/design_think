@@ -5,7 +5,7 @@ const Idear = () => {
     <div name='idear' className='bg-[#FCC30B] p-5 pb-16 drop-shadow-xl'>
       <div className='container mx-auto max-w-5xl'>
           <div className='pt-14 flex flex-col lg:flex-row h-auto md:space-x-6'>
-              <div className='w-2/5 mb-4'>
+              <div className='md:w-2/5 mb-4'>
                 <h2 className='text-7xl text-white font-semibold'>IDEAR</h2>
               </div>
               <div className='md:w-3/5 p-2 text-justify text-white'>
