@@ -2,20 +2,17 @@ import React from 'react'
 
 const Empatizar = () => {
   return (
-    <div name='empatizar' className='bg-gray-200 p-5 my-12'>
-        <div className='flex flex-col h-auto'>
-            <div className='border-b-2 border-blue-700 mb-4'>
-                <h2 className='text-4xl text-blue-600'><span className='text-8xl text-blue-800 font-semibold'>E</span>mpatizar</h2>
-            </div>
-            <div className='p-2 text-justify'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At adipisci quo voluptas commodi debitis aspernatur molestiae saepe laborum blanditiis. Blanditiis, minus. Provident nam cum quisquam nihil dolore consectetur, eaque amet inventore nemo, sequi tempore expedita nobis distinctio voluptates quos consequuntur eius. Temporibus impedit tenetur non accusamus iure ipsa. Labore aliquid quod hic, non distinctio quos minus similique molestias tempore consequuntur deleniti autem et iste vitae, fuga magni cumque pariatur velit nam delectus asperiores corporis rem. Aspernatur voluptatum debitis labore cupiditate et tempore ratione molestiae laboriosam ut itaque modi, aliquid eos cumque vel deleniti iste vitae praesentium magnam earum corporis harum.
-            </div>
+    <div name='empatizar' className='bg-[#FD9D24] p-5 mt-12 pb-20'>
+      <div className='container mx-auto max-w-5xl'>
+          <div className='pt-14 flex flex-col lg:flex-row h-auto md:space-x-6'>
+              <div className='w-2/5 mb-4'>
+                  <h2 className='text-4xl text-white'><span className='text-7xl text-white font-semibold'>EMPATIZAR</span></h2>
+              </div>
+              <div className='w-3/5 p-2 text-justify text-white'>
+              LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. AT ADIPISCI QUO VOLUPTAS COMMODI DEBITIS ASPERNATUR MOLESTIAE SAEPE LABORUM BLANDITIIS. BLANDITIIS, MINUS. PROVIDENT NAM CUM QUISQUAM NIHIL DOLORE CONSECTETUR, EAQUE AMET INVENTORE NEMO, SEQUI TEMPORE EXPEDITA NOBIS DISTINCTIO VOLUPTATES QUOS CONSEQUUNTUR EIUS. TEMPORIBUS IMPEDIT TENETUR NON ACCUSAMUS IURE IPSA. LABORE ALIQUID QUOD HIC, NON DISTINCTIO QUOS MINUS SIMILIQUE MOLESTIAS TEMPORE CONSEQUUNTUR DELENITI AUTEM ET ISTE VITAE, FUGA MAGNI CUMQUE PARIATUR VELIT NAM DELECTUS ASPERIORES CORPORIS REM. ASPERNATUR VOLUPTATUM DEBITIS LABORE CUPIDITATE ET TEMPORE RATIONE MOLESTIAE LABORIOSAM UT ITAQUE MODI, ALIQUID EOS CUMQUE VEL DELENITI ISTE VITAE PRAESENTIUM MAGNAM EARUM CORPORIS HARUM.
+              </div>
+          </div>
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
     </div>
   )
 }

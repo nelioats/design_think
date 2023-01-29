@@ -16,11 +16,11 @@ const Hero = () => {
                   <p className='drop-shadow-2xl py-2 mb-2 px-2 text-base md:text-xl'>e Formação de Professores na Orientação do TCC do IEMA</p>
               </div>
               <div className='px-3 space-y-2  md:w-full md:pr-20 md:max-w-lg md:mt-10'>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'><Link to="empatizar" smooth={true} offset={10} duration={500}>Empatizar</Link></button>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Definir</button>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Idear</button>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Prototipar</button>
-                <button className='w-full hover:bg-white hover:text-green-800 transition duration-300 ease-out hover:ease-in'>Testar</button>
+              <Link to="empatizar" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-[#FD9D24] hover:text-white transition duration-300 ease-out hover:ease-in'>EMPATIZAR</button></Link>
+              <Link to="definir" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-[#FD6925] hover:text-white transition duration-300 ease-out hover:ease-in'>DEFINIR</button></Link>
+              <Link to="idear" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-[#FCC30B] hover:text-white transition duration-300 ease-out hover:ease-in'>IDEAR</button></Link>
+              <Link to="idear" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-white hover:text-white transition duration-300 ease-out hover:ease-in'>PROTOTIPAR</button></Link>
+              <Link to="idear" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-white hover:text-white transition duration-300 ease-out hover:ease-in'>TESTAR</button></Link>
               </div>
             </div>
           <div className='w-full space-x-3 space-y-2 mt-2 pt-20'>

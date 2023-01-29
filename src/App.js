@@ -1,7 +1,10 @@
+import Definir from "./components/Definir";
 import Empatizar from "./components/Empatizar";
 import Hero from "./components/Hero";
+import Idear from "./components/Idear";
 import Navbar from "./components/Navbar";
 import Ods from "./components/Ods";
+import Prototipar from "./components/Prototipar";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Hero />
       <Ods />
       <Empatizar />
+      <Definir />
+      <Idear />
+      <Prototipar />
     </div>
   );
 }
