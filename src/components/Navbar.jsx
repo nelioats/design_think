@@ -3,6 +3,7 @@ import { HiMenuAlt3 } from 'react-icons/hi';
 import { Link } from 'react-scroll'
 
 
+
 const NavBar = () => {
 
 const [nav, setNav] = useState(false)
@@ -24,12 +25,12 @@ const handleNav = () => {
       }
 
   return (
-    <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0'>
-        <h1 className='text-green-700 font-bold text-2xl z-20'>DESIGN THINKING</h1>
+    <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0 md:pl-20 md:pr-20'>
+        <h1 className='text-green-700 font-bold text-2xl z-20 '>DESIGN THINKING</h1>
         <HiMenuAlt3 onClick={handleNav} className=' text-green-800 cursor-pointer z-20' size={25} />
         <div className={
-          nav ? 'ease-in duration-500 fixed text-green-900 left-0 top-0 w-full h-screen bg-white/90 py-7 flex-col z-10' : 
-           'absolute top-0 h-screen top-[-900%] ease-in duration-500 z-10'
+          nav ? 'ease-in duration-75 fixed text-green-900 left-0 top-0 w-full h-screen bg-white/90 py-7 flex-col z-10' : 
+           'absolute top-0 h-screen top-[-900%] ease-in duration-75 z-10'
         }> 
 
 {/* <div className={
