@@ -11,8 +11,8 @@ const Hero = () => {
           <div className='md:flex md:flex-col-2 md:w-full md:justify-center md:mt-20'>
               <div className='md:text-left md:w-full md:pl-32 '>
                   <div className=''>
-                    <img className='md:w-80 md:h-80 w-64 h-64 md:opacity-80 ml-[20%] mb-16' src={logo} alt="" />
-                    <div className='absolute top-[58%]'>
+                    <img className='md:w-80 md:h-80 w-64 h-64 md:opacity-80 md:ml-[20%] mb-16' src={logo} alt="" />
+                    <div className='md:absolute md:top-[58%]'>
                       <p>A METODOLOGIA </p>
                       <h1 className='font-bold text-4xl drop-shadow-2xl md:text-7xl'>Design Thinking</h1>
                       <p className='drop-shadow-2xl text-base md:text-xl'>e Formação de Professores na Orientação do TCC do IEMA</p>
