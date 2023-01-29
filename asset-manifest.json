@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/design_think/static/css/main.3df8152b.css",
-    "main.js": "/design_think/static/js/main.dc065f89.js",
+    "main.css": "/design_think/static/css/main.01d9c572.css",
+    "main.js": "/design_think/static/js/main.bd8426fe.js",
     "index.html": "/design_think/index.html",
-    "main.3df8152b.css.map": "/design_think/static/css/main.3df8152b.css.map",
-    "main.dc065f89.js.map": "/design_think/static/js/main.dc065f89.js.map"
+    "main.01d9c572.css.map": "/design_think/static/css/main.01d9c572.css.map",
+    "main.bd8426fe.js.map": "/design_think/static/js/main.bd8426fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.3df8152b.css",
-    "static/js/main.dc065f89.js"
+    "static/css/main.01d9c572.css",
+    "static/js/main.bd8426fe.js"
   ]
 }
