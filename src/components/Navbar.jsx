@@ -40,10 +40,10 @@ const handleNav = () => {
             <ul className='flex flex-col fixed w-full  h-full max-h-[550px]  justify-center'>
 
               <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="empatizar" smooth={true} offset={50} duration={500}>Empatizar</Link></li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Definir</Link></li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Idear</Link></li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Prototipar</Link></li>
-              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="test1" smooth={true} offset={50} duration={500}>Testar</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="definir" smooth={true} offset={50} duration={500}>Definir</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="idear" smooth={true} offset={50} duration={500}>Idear</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="prototipar" smooth={true} offset={50} duration={500}>Prototipar</Link></li>
+              <li className='font-bold text-xl p-6 w-full border-b-2 border-gray-400 cursor-pointer'> <Link onClick={handleClose} to="testar" smooth={true} offset={50} duration={500}>Testar</Link></li>
             </ul>
         </div>
     </div>
