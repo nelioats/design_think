@@ -31,7 +31,7 @@ const Hero = () => {
               </div>
             </div>
           <div className='w-full space-x-3 space-y-2 mt-2 pt-20'>
-              <button className='bg-white text-green-700 font-semibold md:min-w-[300px]'>Saiba + sobre o IEMA</button>
+               <a href="https://iema.ma.gov.br/" target={'_blank'} rel='noreferrer'><button className='bg-white text-green-700 font-semibold md:min-w-[300px]'>Saiba + sobre o IEMA</button></a>
               <button className='bg-white text-green-700 font-semibold md:min-w-[300px]'>Biblioteca TCC</button>
           </div>
       </div>
