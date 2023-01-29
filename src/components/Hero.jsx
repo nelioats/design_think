@@ -28,7 +28,7 @@ const Hero = () => {
                 <div> <Link to="testar" smooth={true} offset={10} duration={500}><button className='w-full hover:bg-[#0A97D9] hover:text-white transition duration-300 ease-out hover:ease-in'>TESTAR</button></Link></div>
               </div>
           </div>
-          <div className='w-full space-x-3 space-y-2 md:mt-2 md:pt-24'>
+          <div className='w-full space-x-3 space-y-2 md:mt-2 md:pt-8 pt-4'>
                <a href="https://iema.ma.gov.br/" target={'_blank'} rel='noreferrer'><button className='bg-white text-green-700 font-semibold md:min-w-[300px]'>Saiba + sobre o IEMA</button></a>
               <button className='bg-white text-green-700 font-semibold md:min-w-[300px]'>Biblioteca TCC</button>
           </div>
