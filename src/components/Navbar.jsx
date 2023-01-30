@@ -33,7 +33,7 @@ const handleNav = () => {
 
   return (
     <div className='fixed bg-white/90 w-full flex justify-between p-4 items-center z-20 top-0 left-0 right-0 '>
-         <Link to='hero' smooth={true} offset={0} duration={500} className='z-20' onClick={handleNavLogo}><button className='text-green-700 font-bold text-2xl'>DESIGN THINKING</button></Link>
+         <Link to='hero' smooth={true} offset={0} duration={500} className='z-20' onClick={handleNavLogo}><button className='text-green-700 font-bold text-2xl border-0'>DESIGN THINKING</button></Link>
         <HiMenuAlt3 onClick={handleNav} className=' text-green-800 cursor-pointer z-20' size={25} />
         <div className={
           nav ? 'ease-in duration-75 fixed text-green-900 left-0 top-0 w-full h-screen bg-white/90 py-7 flex-col z-10' : 
