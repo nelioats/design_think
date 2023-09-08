@@ -74,6 +74,30 @@
         }
     });
 
+
+    // ======================
+
+    function verificarTamanhoDaTela() {
+        var larguraDaTela = $(window).width(); // Obtém a largura da tela usando jQuery
+
+        // Verifica se a largura da tela é menor que X pixels (substitua X pelo valor desejado)
+        if (larguraDaTela < 992) {
+            // Altere o SRC da imagem para a versão menor
+            $("#minha-imagem").attr("src", "img/hero-min.jpg");
+        } else {
+            // Caso contrário, mantenha o SRC da imagem como a versão grande
+            $("#minha-imagem").attr("src", "img/hero-max.jpg");
+        }
+    }
+
+    // Adicione um ouvinte de evento para verificar o tamanho da tela quando a janela é redimensionada
+    $(window).resize(verificarTamanhoDaTela);
+
+    // Verifique o tamanho da tela quando a página é carregada
+    verificarTamanhoDaTela();
+
+   // ======================
+
     
 })(jQuery);
 

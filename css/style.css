@@ -146,9 +146,13 @@
         background: #FFFFFF;
     }
 
+
+
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
+
+  
 }
 
 @media (min-width: 992px) {
@@ -170,6 +174,19 @@
         opacity: 1;
         right: -80%;
     }
+
+ 
+}
+
+.bg-hero-min {
+    background: url(../img/conceito-de-ideia-com-lampada.jpg) center center ;
+    background-size: cover;
+}
+
+
+.bg-hero-max {
+    background: url(../img/hero-max.jpg) center center ;
+    background-size: cover;
 }
 
 
@@ -203,7 +220,7 @@
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 450px;
+        min-height: 650px;
     }
     
     #header-carousel .carousel-item img {
